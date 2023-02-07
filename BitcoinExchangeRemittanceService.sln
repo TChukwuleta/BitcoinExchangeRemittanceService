@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB35C4D1-385A-4EE3-9D90-19D51936C533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinExchangeRemittanceService.Application", "BitcoinExchangeRemittanceService.Application\BitcoinExchangeRemittanceService.Application.csproj", "{8232805F-6714-4E54-AE1C-8F7F073F45B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinExchangeRemittanceService.Infrastructure", "BitcoinExchangeRemittanceService.Infrastructure\BitcoinExchangeRemittanceService.Infrastructure.csproj", "{E03EC9A6-76D6-4C93-BA49-9C97C3281221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinExchangeRemittanceService.Core", "BitcoinExchangeRemittanceService.Core\BitcoinExchangeRemittanceService.Core.csproj", "{8019A4D0-8A9A-49DB-8CB5-8A7FE8635AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinExchangeRemittanceService.Api", "BitcoinExchangeRemittanceService.Api\BitcoinExchangeRemittanceService.Api.csproj", "{C9422D35-7911-4044-BF58-02461FCD0AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8232805F-6714-4E54-AE1C-8F7F073F45B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8232805F-6714-4E54-AE1C-8F7F073F45B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8232805F-6714-4E54-AE1C-8F7F073F45B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8232805F-6714-4E54-AE1C-8F7F073F45B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03EC9A6-76D6-4C93-BA49-9C97C3281221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03EC9A6-76D6-4C93-BA49-9C97C3281221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03EC9A6-76D6-4C93-BA49-9C97C3281221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03EC9A6-76D6-4C93-BA49-9C97C3281221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8019A4D0-8A9A-49DB-8CB5-8A7FE8635AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8019A4D0-8A9A-49DB-8CB5-8A7FE8635AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8019A4D0-8A9A-49DB-8CB5-8A7FE8635AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8019A4D0-8A9A-49DB-8CB5-8A7FE8635AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9422D35-7911-4044-BF58-02461FCD0AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9422D35-7911-4044-BF58-02461FCD0AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9422D35-7911-4044-BF58-02461FCD0AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9422D35-7911-4044-BF58-02461FCD0AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8232805F-6714-4E54-AE1C-8F7F073F45B3} = {FB35C4D1-385A-4EE3-9D90-19D51936C533}
+		{E03EC9A6-76D6-4C93-BA49-9C97C3281221} = {FB35C4D1-385A-4EE3-9D90-19D51936C533}
+		{8019A4D0-8A9A-49DB-8CB5-8A7FE8635AA3} = {FB35C4D1-385A-4EE3-9D90-19D51936C533}
+		{C9422D35-7911-4044-BF58-02461FCD0AB6} = {FB35C4D1-385A-4EE3-9D90-19D51936C533}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82FB13BF-6379-4A34-A2C7-E865E290CD22}
+	EndGlobalSection
+EndGlobal
